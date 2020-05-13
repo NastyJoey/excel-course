@@ -5,6 +5,11 @@
     "browser": true,
     "node": true
   },
-  "rules": {},
+  "rules": {
+    "semi": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off"
+  },
   "extends": ["eslint:recommended", "google"]
 }
